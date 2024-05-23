@@ -48,9 +48,9 @@ import Footer from "./Footer";
 const Contact = () => {
   return (
     <>
-      <div className="max-w-screen-md container mx-auto px-4 md:px-10">
+      <div className="max-w-screen-md container mx-auto px-4 md:px-10 ">
         <div className="py-5 flex flex-col items-center justify-center text-center">
-          <h1 className="pt-12 text-4xl font-bold">Contact Us</h1>
+          <h1 className="pt-12 text-4xl font-bold text-white">Contact Us</h1>
           
           <form action="#" method="POST" className="w-full max-w-2xl mt-8">
             <div className="mb-4">
@@ -89,7 +89,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

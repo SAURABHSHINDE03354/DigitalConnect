@@ -132,7 +132,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <hr />col
+        <hr />
         <footer className="footer p-4 md:p-10 text-base-content rounded dark:bg-slate-900 dark:text-white">
           <nav className="flex flex-col md:flex-row md:justify-between items-center">
           <div className="flex space-x-4">
@@ -164,7 +164,8 @@ const Footer = () => {
               </a>
               <a href="https://github.com/SAURABHSHINDE03354">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+                  // xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 50 50"
                   width="24px"
                   height="24px"

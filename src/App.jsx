@@ -29,24 +29,29 @@ import Services from "./components/Services";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./Contact";
+import Footer from "./Footer";
+import './App.css';
 
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="bg-image" > 
         <NavBar />
-        <Services/>
+        {/* <Services/> */}
        
         <div className="pt-20">
           <Routes>
+             <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
             
-            {/* <Route path="/services" element={<Services />} /> */}
             <Route path="/about" element={<About />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+           
           </Routes>
         </div>
-       <Contact/>
+      
+       <Footer/>
       </div>
     </Router>
   );
